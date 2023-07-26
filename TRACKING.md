@@ -1,4 +1,3 @@
-↩
 # Digital tracking
 ## General
 Tracking is a way to tell that some set of requests came from the same computer
