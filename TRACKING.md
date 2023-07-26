@@ -4,16 +4,16 @@ Tracking is a way to tell that some set of requests came from the same computer
 
 This can be done in a few ways
  - Static Tracking
-   - [IP Address ↩](#ip-address)
-   - [User-Agent ↩](#http-request)
- - [Cookies ↩](#cookies)
+   - [IP Address ↲](#ip-address)
+   - [User-Agent ↲](#http-request)
+ - [Cookies ↲](#cookies)
  - System properties
-   - [Installed apps ↩](#custom-protocols)
-   - [Javascript object properties ↩](#javascript-object-properties)
+   - [Installed apps ↲](#custom-protocols)
+   - [Javascript object properties ↲](#javascript-object-properties)
 
 Shortcuts
- - [VPN ↩](#vpn)
- - [Sorfware ↩](#software)
+ - [VPN ↲](#vpn)
+ - [Sorfware ↲](#software)
 ## TCP
 TCP (Transmission control protocol) is a protocol that powers all of the web and most of the internet
 
@@ -21,8 +21,8 @@ A packet in TCP is an object that can be used to transmit data
 
 
 a TCP packets consist of (not a complete list):
- - Source [IP + port ↩](#ip-address)
- - Destination [IP + port ↩](#ip-address)
+ - Source [IP + port ↲](#ip-address)
+ - Destination [IP + port ↲](#ip-address)
  - Data
 
 # IP Address
@@ -58,7 +58,7 @@ Destination port: 443 <-- standart https port (80 for http)
 ```
 
 #### How IP Address can be used for tracking
-The server could use a giant lookup table to determine your approximate location based on the source ip. This is the main (and the only) reason why [VPN's ↩](#vpn) say that they make your internet anonymous.
+The server could use a giant lookup table to determine your approximate location based on the source ip. This is the main (and the only) reason why [VPN's ↲](#vpn) say that they make your internet anonymous.
 
 # VPN
 
@@ -141,11 +141,11 @@ Data:
 Password: somesupersecretpassword
 ```
 Related:
- - [IP Address ↩](#ip-address)
- - [TCP ↩](#tcp)
+ - [IP Address ↲](#ip-address)
+ - [TCP ↲](#tcp)
 
 Prevention:
- - [Tor ↩](#tor)
+ - [Tor ↲](#tor)
  - I can't recomend any other VPN
 
 # Cookies
@@ -154,7 +154,7 @@ Cookies are an incredible technology that allows websites to store small text fi
 But facebook for example could generate and save a unique string into your cookies, which they can later use to track what websites you visit, because to load the image of that little "like on facebook" widget, the browser sends a request to facebook containing the identification cookie and the website address you visited. And facebook does that
 
 Prevention:
- - [Privacy badger ↩](#privacy-badger)
+ - [Privacy badger ↲](#privacy-badger)
 
 # User-Agent
 One of the headers sent to a website when you connect to it is User-Agent, which give information about your systenm and browser
@@ -166,7 +166,7 @@ For example my user agent string is:
 Which tells that I use [REDACTED] which is pretty rare
 
 Prevention:
- - [Random User-Agent (Switcher) ↩](#random-user-agent-switcher)
+ - [Random User-Agent (Switcher) ↲](#random-user-agent-switcher)
 
 # Custom protocols
 
@@ -175,22 +175,22 @@ Custom protocols is a way for websites to open desktop applications. For example
 Basically you could get a pretty unique device fingerprint by trying to open every existing application openable from the browser, this is called Scheme Flooding (Here's a [demo 🡥](https://schemeflood.com/))
 
 Prevention:
- - [SchemefloodDisabler ↩](#SchemefloodDisabler)
+ - [SchemefloodDisabler ↲](#SchemefloodDisabler)
 
 # Javascript object properties
 Websites can use certain html object (like canvas) to determine sertain properties of the system. I am not entirely sure how it works, but as far as I know, it has something to do with diffrent behaviour it diffrent systems
 
 Prevention:
- - [ilGur Defenders ↩](#ilgur-defenders)
+ - [ilGur Defenders ↲](#ilgur-defenders)
 
 # Software
 This section contains a list of software that can be used to prevent tracking:
- - [Tor ↩](#tor)
- - [Privacy badger ↩](#privacy-badger)
- - [Random User-Agent (Switcher) ↩](#random-user-agent-switcher)
- - [SchemefloodDisabler ↩](#SchemefloodDisabler)
- - [ilGur Defenders ↩](#ilgur-defenders)
- - [uBlock Origin ↩](#ublock-origin)
+ - [Tor ↲](#tor)
+ - [Privacy badger ↲](#privacy-badger)
+ - [Random User-Agent (Switcher) ↲](#random-user-agent-switcher)
+ - [SchemefloodDisabler ↲](#SchemefloodDisabler)
+ - [ilGur Defenders ↲](#ilgur-defenders)
+ - [uBlock Origin ↲](#ublock-origin)
 
 ## Tor
 Tor is not a VPN, but it is still used to hide your public IP
@@ -207,7 +207,7 @@ Chrome: [Privacy badger 🡥](https://chrome.google.com/webstore/detail/privacy-
 Firefox: [Privacy badger 🡥](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
 
 ## Random User-Agent (Switcher)
-This is an extention that randomly switched your [User-Agent ↩](#user-agent) every couple of seconds (Need manual configuration)
+This is an extention that randomly switched your [User-Agent ↲](#user-agent) every couple of seconds (Need manual configuration)
 
 Chrome: [Random User-Agent (Switcher) 🡥](https://chrome.google.com/webstore/detail/random-user-agent-switche/einpaelgookohagofgnnkcfjbkkgepnp)
 
@@ -216,7 +216,7 @@ Firefox: [Random User-Agent (Switcher) 🡥](https://addons.mozilla.org/en-US/fi
 ## SchemefloodDisabler
 ⚠️ This extention is more likely to be malicious that others, use this at your own risk
 
-This extention can prevent [Scheme Flooding ↩](#custom-protocols)
+This extention can prevent [Scheme Flooding ↲](#custom-protocols)
 
 Chrome: Unavailable
 
