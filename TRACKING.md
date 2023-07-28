@@ -195,6 +195,9 @@ This section contains a list of software that can be used to prevent tracking:
  - [uBlock Origin ↲](#ublock-origin)
 
 ## Tor
+
+Video by Numberphile about Tor: [How TOR Works- Computerphile 🡥](https://www.youtube.com/watch?v=QRYzre4bf7I)
+
 Tor is not a VPN, but it is still used to hide your public IP
 
 It is usually used in form of the Tor Browser which you can download at:
