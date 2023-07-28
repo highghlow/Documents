@@ -62,6 +62,8 @@ The server could use a giant lookup table to determine your approximate location
 
 # VPN
 
+Video by Tom Scott about VPNs: [This Video Is Sponsored By ███ VPN 🡥](https://www.youtube.com/watch?v=WVDQEoe6ZWY)
+
 VPN (Virtual Private Network) or Proxy is a type of software that is mainly used to hide your public ip. It works by modifying outgoing packets to point to the vpn server instead.
 
 What your computer sends:
